@@ -374,8 +374,8 @@ Particle.prototype = (function(o) {
             cy = canvas.height * 0.5;
 
         grad = context.createRadialGradient(cx, cy, 0, cx, cy, Math.sqrt(cx * cx + cy * cy));
-        grad.addColorStop(0, 'rgba(0, 0, 0, 0)');
-        grad.addColorStop(1, 'rgba(0, 0, 0, 0.75)');
+        grad.addColorStop(0, 'rgba(71, 71, 71, 0)');
+        grad.addColorStop(1, 'rgba(71, 71, 71, 0.75)');
     }
 
     function mouseMove(e) {
