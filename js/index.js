@@ -301,7 +301,7 @@ GravityPoint.prototype = (function(o) {
         r = Math.random() * this.currentRadius * 0.7 + this.currentRadius * 0.3;
         grd = ctx.createRadialGradient(this.x, this.y, r, this.x, this.y, this.currentRadius);
         grd.addColorStop(0, 'rgba(0, 0, 0, 1)');
-        grd.addColorStop(1, Math.random() < 0.2 ? 'rgba(43, 57, 84, 0.15)' : 'rgba(64, 97, 163, 0.75)');
+        grd.addColorStop(1, Math.random() < 0.2 ? 'rgba(71, 71, 71, 0.15)' : 'rgba(71, 71, 171, 0.75)');
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.currentRadius, 0, Math.PI * 2, false);
         ctx.fillStyle = grd;
@@ -344,7 +344,7 @@ Particle.prototype = (function(o) {
 (function() {
 
     // Configs
-    var BACKGROUND_COLOR      = 'rgba(54, 57, 63, 1)',
+    var BACKGROUND_COLOR      = 'rgba(71, 71, 71, 1)',
         PARTICLE_RADIUS       = 1,
         G_POINT_RADIUS        = 10,
         G_POINT_RADIUS_LIMITS = 65;
