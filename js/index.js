@@ -495,7 +495,7 @@ Particle.prototype = (function(o) {
         bufferCtx.restore();
         len = particles.length;
         bufferCtx.save();
-        bufferCtx.fillStyle = bufferCtx.strokeStyle = '#ff5203';
+        bufferCtx.fillStyle = bufferCtx.strokeStyle = '#fa6900';
         bufferCtx.lineCap = bufferCtx.lineJoin = 'circle';
         bufferCtx.lineWidth = PARTICLE_RADIUS * 3;
         bufferCtx.beginPath();
